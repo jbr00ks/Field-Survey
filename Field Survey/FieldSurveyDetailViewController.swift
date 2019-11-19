@@ -31,16 +31,6 @@ class FieldSurveyDetailViewController: UIViewController {
             dateLabel.text = dateFormatter.string(from: fieldSurvey.date)
             classificationIconImage.image = UIImage(named: fieldSurvey.classification.rawValue + "Icon")
         }
-        
-//        classificationIconImage.image = observation?.classification.image
-//        titleLabel.text = observation?.title
-//        descriptionLabel.text = observation?.description
-//
-//        if let date = observation?.date {
-//            dateLabel.text = dateFormatter.string(from: date)
-//        } else {
-//            dateLabel.text = ""
-//        }
 
         // Do any additional setup after loading the view.
     }

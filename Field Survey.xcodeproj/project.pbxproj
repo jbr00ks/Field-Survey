@@ -16,8 +16,6 @@
 		037415F5238341BE00A6626B /* Field_SurveyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037415F4238341BE00A6626B /* Field_SurveyUITests.swift */; };
 		037416022383427100A6626B /* FieldSurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037416012383427100A6626B /* FieldSurveyViewController.swift */; };
 		037416052383451A00A6626B /* field_observations.json in Resources */ = {isa = PBXBuildFile; fileRef = 037416042383451A00A6626B /* field_observations.json */; };
-		03741607238345A900A6626B /* Classification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03741606238345A900A6626B /* Classification.swift */; };
-		0374160B238348E900A6626B /* FieldSurveyJSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0374160A238348E800A6626B /* FieldSurveyJSONParser.swift */; };
 		0374160D23836C0B00A6626B /* FieldSurveyJSONLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0374160C23836C0B00A6626B /* FieldSurveyJSONLoader.swift */; };
 		0374160F23836EA500A6626B /* FieldSurveyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0374160E23836EA500A6626B /* FieldSurveyDetailViewController.swift */; };
 		037416112383A3EB00A6626B /* FieldSurveyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037416102383A3EB00A6626B /* FieldSurveyTableViewCell.swift */; };
@@ -48,8 +46,6 @@
 		037415F6238341BE00A6626B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		037416012383427100A6626B /* FieldSurveyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldSurveyViewController.swift; sourceTree = "<group>"; };
 		037416042383451A00A6626B /* field_observations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = field_observations.json; sourceTree = "<group>"; };
-		03741606238345A900A6626B /* Classification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classification.swift; sourceTree = "<group>"; };
-		0374160A238348E800A6626B /* FieldSurveyJSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldSurveyJSONParser.swift; sourceTree = "<group>"; };
 		0374160C23836C0B00A6626B /* FieldSurveyJSONLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldSurveyJSONLoader.swift; sourceTree = "<group>"; };
 		0374160E23836EA500A6626B /* FieldSurveyDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldSurveyDetailViewController.swift; sourceTree = "<group>"; };
 		037416102383A3EB00A6626B /* FieldSurveyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldSurveyTableViewCell.swift; sourceTree = "<group>"; };
@@ -123,8 +119,6 @@
 			isa = PBXGroup;
 			children = (
 				037416042383451A00A6626B /* field_observations.json */,
-				03741606238345A900A6626B /* Classification.swift */,
-				0374160A238348E800A6626B /* FieldSurveyJSONParser.swift */,
 				0374160C23836C0B00A6626B /* FieldSurveyJSONLoader.swift */,
 				037416122384284900A6626B /* FieldSurvey.swift */,
 			);
@@ -234,7 +228,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				037416132384284900A6626B /* FieldSurvey.swift in Sources */,
-				0374160B238348E900A6626B /* FieldSurveyJSONParser.swift in Sources */,
 				0374160D23836C0B00A6626B /* FieldSurveyJSONLoader.swift in Sources */,
 				037416112383A3EB00A6626B /* FieldSurveyTableViewCell.swift in Sources */,
 				0374160F23836EA500A6626B /* FieldSurveyDetailViewController.swift in Sources */,
@@ -242,7 +235,6 @@
 				037415E5238341B600A6626B /* Field_Survey.xcdatamodeld in Sources */,
 				037415DD238341B600A6626B /* SceneDelegate.swift in Sources */,
 				037416022383427100A6626B /* FieldSurveyViewController.swift in Sources */,
-				03741607238345A900A6626B /* Classification.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
